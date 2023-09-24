@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/sh -e
 
 echo -e "${INPUT_KEY}" > KEY_FILE
 
