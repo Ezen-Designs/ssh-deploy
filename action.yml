@@ -11,6 +11,9 @@ inputs:
   key:
     description: 'Private key'
     required: true
+  cmd:
+    description: 'Command'
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
