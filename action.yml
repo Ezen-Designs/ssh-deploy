@@ -1,0 +1,16 @@
+name: 'SSH deploy action'
+description: 'Execute command on remote server'
+author: 'Andy Schneider'
+inputs:
+  host:
+    description: 'SSH hostname'
+    required: true
+  user:
+    description: 'SSH User name'
+    required: true
+  key:
+    description: 'Private key'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
